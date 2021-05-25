@@ -1,6 +1,6 @@
 # Single Page Applications Sprint Challenge
 
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
+***Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
 This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored **single page applications**. During this sprint, you studied **routing, forms, and testing in cypress**. In your challenge this week, you will demonstrate your mastery of these skills by creating **Lambda Eats**, a website designed to bring food to hungry coders.
 
@@ -8,7 +8,7 @@ This is an individual assessment. All work must be your own. Your challenge scor
 
 You are not allowed to collaborate during the sprint challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL if you need direction.
 
-## Full Time Students
+### Full Time Students
 
 _You have until 5pm PST to complete this challenge. The challenge is available from midnight on Thursday. However you should not be coding through the night; rather you can wake up on Friday and start coding at an hour you choose, rather than waiting for a unified start time. Ideally, you will be writing the majority of the code during the time block allocated on your calendar (9am to 1pm PST). And if you need extra time, there is a second time block allocated from 3pm - 5pm PST. CodeGrade submissions cannot be accepted beyond this time. Set up CodeGrade before you start coding to avoid common problems._
 
@@ -33,8 +33,11 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+    useRoutMatch is used to route to different pages/components on the same app.
 1. How would you explain form validation to someone who has never programmed before?
+    Form validation is a way, through coding, to ensure specific criteria (including required inputs, checkboxes, etc, minimum character count for passwords and valid email addresses) are met before a user is able to proceed on your page or site.
 1. In 1-2 sentences, define end to end testing.
+    E2E testing is a series of written code that simulates every possible interaction a user can have with a site or app. The objective is to test all functionality and expose any bugs that may be present.
 
 ## Instructions
 

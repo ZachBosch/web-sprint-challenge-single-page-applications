@@ -1,9 +1,5 @@
-import React from "react";
-import styled from 'styled-components'
-import { Route, Link } from 'react-router-dom'
-// import Pizza from './Pizza'
 
-// STYLING
+//Styling
 const StyledDiv = styled.div`
 color: black;
 background-color: #8aa3aa;
@@ -31,29 +27,17 @@ border-radius: 15px;
   }
 `
 
-const App = () => {
-  return (
-    <>
-    <StyledDiv>
+
+
+
+<StyledDiv>
       <h1>Lambdo's Pizza</h1>
       <h2>Come Eat It!</h2>
-      {/* <StyledBtn id='order-pizza'>Pizza?</StyledBtn> */}
       <Link to='/pizza'>
         <StyledBtn className='pizza-button' id="order-pizza">
           Pizza?
         </StyledBtn>
       </Link>
       <p>*eat at your own risk, we are a coding bootcamp, not a professional pizza kitchen</p>
-        {/* <Switch>
-
-        // <Route path='/pizza' />
-        <Route exact path='/' />
-
-        </Switch> */}
-    
-    
+          
     </StyledDiv>
-    </>
-  );
-};
-export default App;
